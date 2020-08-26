@@ -1,0 +1,16 @@
+{
+  "name": "tap-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codecov": "^3.7.2",
+    "tap": "^14.10.8"
+  }
+}
