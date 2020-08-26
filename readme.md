@@ -76,6 +76,7 @@ Due to TAP being so minimal it's also fairly easy to use and makes me think doub
 
 <br/>
 <br/>
+
 ## Jest 
 Jest IS a full blown testing framework that also claims to be simple working with a most popular frameworks.
 
@@ -90,6 +91,7 @@ Jest IS a full blown testing framework that also claims to be simple working wit
 
 <br/>
 <br/>
+
 ## AVA
 AVA is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence 🚀
 
@@ -101,10 +103,11 @@ AVA is a test runner for Node.js with a concise API, detailed error output, embr
 - Large docs
 
 ### negatives
-- - Needs third party modules to serve http mocks or other stuff
+- Needs third party modules to serve http mocks or other stuff
 
 <br/>
 <br/>
+
 ## qUnit
 QUnit is a powerful, easy-to-use JavaScript unit test suite. If you're new to QUnit, check out Getting Started with QUnit on the main site.
 
