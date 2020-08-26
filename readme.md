@@ -2,6 +2,15 @@
 
 > Creating examples of different testing libraries for comparison purposes.
 
+# Conclusion
+While Jest is ticking the most boxes. I think the syntax is to bloated in comparison with e.g. AVA and Tap. I really like the documentation of AVA and the simpleness of AVA.
+AVA is super self explanatory and is super simple to use. A big plus for AVA as well is that they have a list of common pitfals in their readme. Which means that this list can come in handy to safe time. AVA is also able to test front-end components and they have other 'recipes' ready in their repo.
+**I'd go for AVA.**
+
+<br/>
+<br/>
+<br/>
+
 ## Requirements
 - Assertions
 - Mocking
@@ -21,7 +30,8 @@ Http testing is not available in most frameworks. We could use a seperata librar
 - https://github.com/nock/nock
 - https://github.com/visionmedia/supertest
 
-
+<br/>
+<br/>
 ## Testing frameworks/libs
 
 - https://jestjs.io/
@@ -64,7 +74,8 @@ Due to TAP being so minimal it's also fairly easy to use and makes me think doub
 - doesn't have before/after All (or could be fixed with nested tests itself. So it's on purpose)
 - Needs third party modules to serve http mocks or other stuff
 
-
+<br/>
+<br/>
 ## Jest 
 Jest IS a full blown testing framework that also claims to be simple working with a most popular frameworks.
 
@@ -77,7 +88,8 @@ Jest IS a full blown testing framework that also claims to be simple working wit
 - Imo bloated function calls. It works with chaining functions
 - Needs mocked service layer for all the things (will take more time)
 
-
+<br/>
+<br/>
 ## AVA
 AVA is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence 🚀
 
@@ -91,7 +103,8 @@ AVA is a test runner for Node.js with a concise API, detailed error output, embr
 ### negatives
 - - Needs third party modules to serve http mocks or other stuff
 
-
+<br/>
+<br/>
 ## qUnit
 QUnit is a powerful, easy-to-use JavaScript unit test suite. If you're new to QUnit, check out Getting Started with QUnit on the main site.
 
@@ -102,8 +115,3 @@ QUnit is a powerful, easy-to-use JavaScript unit test suite. If you're new to QU
 ### negatives
 - Needs third party modules to serve http mocks or other stuff
 - Compared to others it has a weird syntax
-
-# Definition
-A 'Mock'
-- In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative.
-Resolves dependencies in a test environment
