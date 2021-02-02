@@ -10,6 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.4.2"
+    "gherkin-jest": "^0.24.0",
+    "jest": "^26.4.2",
+    "jest-cucumber": "^3.0.0",
+    "stucumber": "^0.19.0"
+  },
+  "jest": {
+    "verbose": false
   }
 }

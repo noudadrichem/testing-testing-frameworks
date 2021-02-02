@@ -2,10 +2,10 @@
 
 const Lib = require('../../toTest');
 
-beforeAll(() => console.log('before all...'));
-afterAll(() => console.log('after all...'));
-beforeEach(() => console.log('before each...'));
-afterEach(() => console.log('after each...'));
+// beforeAll(() => console.log('before all...'));
+// afterAll(() => console.log('after all...'));
+// beforeEach(() => console.log('before each...'));
+// afterEach(() => console.log('after each...'));
 
 test('adds 1 + 2 to equal 3', () => {
   expect(Lib.sum(1,2)).toBe(3);
